@@ -1,0 +1,28 @@
+{
+  "name": "chuks_kitchen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only -r tsconfig-paths/register src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "temyl",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "http-status-codes": "^2.3.0",
+    "jest": "^30.2.0",
+    "mongoose": "^9.2.3",
+    "ulid": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.2",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.9.3"
+  }
+}
